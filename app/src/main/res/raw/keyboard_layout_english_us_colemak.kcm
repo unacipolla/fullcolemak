@@ -1,0 +1,369 @@
+# Copyright (C) 2012 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# English (US), Colemak keyboard layout.
+# With full international layout as intended
+#
+type OVERLAY
+map key 18 F
+map key 19 P
+map key 20 G
+map key 21 J
+map key 22 L
+map key 23 U
+map key 24 Y
+map key 25 SEMICOLON
+map key 31 R
+map key 32 S
+map key 33 T
+map key 34 D
+map key 36 N
+map key 37 E
+map key 38 I
+map key 39 O
+map key 49 K
+map key 58 DEL
+### ROW 1
+key GRAVE {
+    label:                              '`'
+    base:                               '`'
+    shift:                              '~'
+    ralt:                               '\u0303'
+    ralt+shift:                         '\u007e'
+}
+key 1 {
+    label:                              '1'
+    base:                               '1'
+    shift:                              '!'
+    ralt:                               '\u00a1'
+    ralt+shift:                         '\u00b9'
+}
+key 2 {
+    label:                              '2'
+    base:                               '2'
+    shift:                              '@'
+    ralt:                               '\u00ba'
+    ralt+shift:                         '\u00b2'
+}
+key 3 {
+    label:                              '3'
+    base:                               '3'
+    shift:                              '#'
+    ralt:                               '\u00aa'
+    ralt+shift:                         '\u00b3'
+}
+key 4 {
+    label:                              '4'
+    base:                               '4'
+    shift:                              '$'
+    ralt:                               '\u00a2'
+    ralt+shift:                         '\u00a3'
+}
+key 5 {
+    label:                              '5'
+    base:                               '5'
+    shift:                              '%'
+    ralt:                               '\u20ac'
+    ralt+shift:                         '\u00a5'
+}
+key 6 {
+    label:                              '6'
+    base:                               '6'
+    shift:                              '^'
+    ralt:                               '\u0127'
+    ralt+shift:                         '\u0126'
+}
+key 7 {
+    label:                              '7'
+    base:                               '7'
+    shift:                              '&'
+    ralt:                               '\u00f0'
+    ralt+shift:                         '\u00d0'
+}
+key 8 {
+    label:                              '8'
+    base:                               '8'
+    shift:                              '*'
+    ralt:                               '\u00fe'
+    ralt+shift:                         '\u00de'
+}
+key 9 {
+    label:                              '9'
+    base:                               '9'
+    shift:                              '('
+    ralt:                               '\u2018'
+    ralt+shift:                         '\u201c'
+}
+key 0 {
+    label:                              '0'
+    base:                               '0'
+    shift:                              ')'
+    ralt:                               '\u2019'
+    ralt+shift:                         '\u201d'
+}
+key MINUS {
+    label:                              '-'
+    base:                               '-'
+    shift:                              '_'
+    ralt:                               '\u2013'
+    ralt+shift:                         '\u2014'
+}
+key EQUALS {
+    label:                              '='
+    base:                               '='
+    shift:                              '+'
+    ralt:                               '\u00d7'
+    ralt+shift:                         '\u00f7'
+}
+### ROW 2
+key Q {
+    label:                              'Q'
+    base:                               'q'
+    shift, capslock:                    'Q'
+    ralt:                               '\u00e4'
+    ralt+shift:                         '\u00c4'
+}
+key W {
+    label:                              'W'
+    base:                               'w'
+    shift, capslock:                    'W'
+    ralt:                               '\u00e5'
+    ralt+shift:                         '\u00c5'
+}
+key F {
+    label:                              'F'
+    base:                               'f'
+    shift, capslock:                    'F'
+    ralt:                               '\u00e3'
+    ralt+shift:                         '\u00c3'
+}
+key P {
+    label:                              'P'
+    base:                               'p'
+    shift, capslock:                    'P'
+    ralt:                               '\u00f8'
+    ralt+shift:                         '\u00d8'
+}
+key G {
+    label:                              'G'
+    base:                               'g'
+    shift, capslock:                    'G'
+    ralt:                               '\u0328'
+    ralt+shift:                         '\u007e'
+}
+key J {
+    label:                              'J'
+    base:                               'j'
+    shift, capslock:                    'J'
+    ralt:                               '\u0111'
+    ralt+shift:                         '\u0110'
+}
+key L {
+    label:                              'L'
+    base:                               'l'
+    shift, capslock:                    'L'
+    ralt:                               '\u0142'
+    ralt+shift:                         '\u0141'
+}
+key U {
+    label:                              'U'
+    base:                               'u'
+    shift, capslock:                    'U'
+    ralt:                               '\u00fa'
+    ralt+shift:                         '\u00da'
+}
+key Y {
+    label:                              'Y'
+    base:                               'y'
+    shift, capslock:                    'Y'
+    ralt:                               '\u00fc'
+    ralt+shift:                         '\u00dc'
+}
+key SEMICOLON {
+    label:                              ';'
+    base:                               ';'
+    shift, capslock:                    ':'
+    ralt:                               '\u00f6'
+    ralt+shift:                         '\u00d6'
+}
+key LEFT_BRACKET {
+    label:                              '['
+    base:                               '['
+    shift:                              '{'
+    ralt:                               '\u00ab'
+    ralt+shift:                         '\u2039'
+}
+key RIGHT_BRACKET {
+    label:                              ']'
+    base:                               ']'
+    shift:                              '}'
+    ralt:                               '\u00bb'
+    ralt+shift:                         '\u203a'
+}
+key BACKSLASH {
+    label:                              '\\'
+    base:                               '\\'
+    shift:                              '|'
+    ralt:                               '~'
+    ralt+shift:                         '\u007e'
+}
+### ROW 3
+key A {
+    label:                              'A'
+    base:                               'a'
+    shift, capslock:                    'A'
+    ralt:                               '\u00e1'
+    ralt+shift:                         '\u00c1'
+}
+key R {
+    label:                              'R'
+    base:                               'r'
+    shift, capslock:                    'R'
+    ralt:                               '\u0300'
+    ralt+shift:                         '\u007e'
+}
+key S {
+    label:                              'S'
+    base:                               's'
+    shift, capslock:                    'S'
+    ralt:                               '\u00df'
+    ralt+shift:                         '\u007e'
+}
+key T {
+    label:                              'T'
+    base:                               't'
+    shift, capslock:                    'T'
+    ralt:                               '\u0301'
+    ralt+shift:                         '\u030b'
+}
+key D {
+    label:                              'D'
+    base:                               'd'
+    shift, capslock:                    'D'
+    ralt:                               '\u0308'
+    ralt+shift:                         '\u007e'
+}
+key H {
+    label:                              'H'
+    base:                               'h'
+    shift, capslock:                    'H'
+    ralt:                               '\u030c'
+    ralt+shift:                         '\u007e'
+}
+key N {
+    label:                              'N'
+    base:                               'n'
+    shift, capslock:                    'N'
+    ralt:                               '\u00f1'
+    ralt+shift:                         '\u00d1'
+}
+key E {
+    label:                              'E'
+    base:                               'e'
+    shift, capslock:                    'E'
+    ralt:                               '\u00e9'
+    ralt+shift:                         '\u00c9'
+}
+key I {
+    label:                              'I'
+    base:                               'i'
+    shift, capslock:                    'I'
+    ralt:                               '\u00ed'
+    ralt+shift:                         '\u00cd'
+}
+key O {
+    label:                              'O'
+    base:                               'o'
+    shift:                              'O'
+    ralt:                               '\u00f3'
+    ralt+shift:                         '\u00d3'
+}
+key APOSTROPHE {
+    label:                              '\''
+    base:                               '\''
+    shift:                              '"'
+    ralt:                               '\u00f5'
+    ralt+shift:                         '\u00d5'
+}
+### ROW 4
+key Z {
+    label:                              'Z'
+    base:                               'z'
+    shift, capslock:                    'Z'
+    ralt:                               '\u00e6'
+    ralt+shift:                         '\u00c6'
+}
+key X {
+    label:                              'X'
+    base:                               'x'
+    shift, capslock:                    'X'
+    ralt:                               '\u0302'
+    ralt+shift:                         '\u007e'
+}
+key C {
+    label:                              'C'
+    base:                               'c'
+    shift, capslock:                    'C'
+    ralt:                               '\u00e7'
+    ralt+shift:                         '\u00c7'
+}
+key V {
+    label:                              'V'
+    base:                               'v'
+    shift, capslock:                    'V'
+    ralt:                               '\u0153'
+    ralt+shift:                         '\u0152'
+}
+key B {
+    label:                              'B'
+    base:                               'b'
+    shift, capslock:                    'B'
+    ralt:                               '\u0306'
+    ralt+shift:                         '\u007e'
+}
+key K {
+    label:                              'K'
+    base:                               'k'
+    shift, capslock:                    'K'
+    ralt:                               '\u030A'
+    ralt+shift:                         '\u007e'
+}
+key M {
+    label:                              'M'
+    base:                               'm'
+    shift, capslock:                    'M'
+    ralt:                               '\u0304'
+    ralt+shift:                         '\u007e'
+}
+key COMMA {
+    label:                              ','
+    base:                               ','
+    shift:                              '<'
+    ralt:                               '\u0327'
+    ralt+shift:                         '\u007e'
+}
+key PERIOD {
+    label:                              '.'
+    base:                               '.'
+    shift:                              '>'
+    ralt:                               '\u0307'
+    ralt+shift:                         '\u007e'
+}
+key SLASH {
+    label:                              '/'
+    base:                               '/'
+    shift:                              '?'
+    ralt:                               '\u00bf'
+    ralt+shift:                         '\u007e'
+}

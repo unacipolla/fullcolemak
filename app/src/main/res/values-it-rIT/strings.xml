@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colemak Internazionale completo</string>
+    <string name="keyboard_layouts_label">Colemak Internazionale Completo</string>
+    <string name="keyboard_layout_english_us_colemak">Inglese (USA), Colemak Internazionale</string>
+</resources>

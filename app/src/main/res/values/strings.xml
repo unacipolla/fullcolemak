@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Full colemak</string>
+    <string name="keyboard_layouts_label">Full International Colemak layout</string>
+    <string name="keyboard_layout_english_us_colemak">English,  Full International Colemak</string>
+</resources>
