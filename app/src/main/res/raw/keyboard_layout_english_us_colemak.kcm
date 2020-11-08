@@ -215,7 +215,7 @@ key BACKSLASH {
     label:                              '\\'
     base:                               '\\'
     shift:                              '|'
-    ralt:                               '~'
+    ralt:                               '\uef01'
     ralt+shift:                         '\u007e'
 }
 ### ROW 3
