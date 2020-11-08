@@ -33,7 +33,6 @@ map key 37 E
 map key 38 I
 map key 39 O
 map key 49 K
-map key 58 DEL
 ### ROW 1
 key GRAVE {
     label:                              '`'
@@ -366,4 +365,11 @@ key SLASH {
     shift:                              '?'
     ralt:                               '\u00bf'
     ralt+shift:                         '\u007e'
+}
+
+### MODIFIER KEYS
+
+key CAPS_LOCK {
+    base:                               replace DEL
+    shift:                              replace CAPS_LOCK
 }
