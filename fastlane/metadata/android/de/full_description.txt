@@ -1,0 +1,3 @@
+Dies ist ein physisches Tastatur-Layout für Colemak.
+
+Das in Android eingebaute Layout enthält keine internationalen Zeichen, einschließlich Dead Keys. Diese Version basiert auf der offiziellen Windows-Version, die sich auf der <a href='https://colemak.com/'>Colemak Website</a> findet.

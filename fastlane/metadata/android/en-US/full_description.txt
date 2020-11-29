@@ -1,0 +1,3 @@
+This is a physical keyboard layout for Colemak.
+
+Android built-in layout does not contain any international character, dead keys included. This version is based on the official windows version found at the <a href='https://colemak.com/'>Colemak website</a>.
