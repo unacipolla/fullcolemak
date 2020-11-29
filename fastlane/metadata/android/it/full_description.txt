@@ -1,0 +1,3 @@
+Questo è un layout Colemak per tastiere fisiche.
+
+L'unico layout disponibile su Android per tastiere fisiche non contiene nessun carattere internazionale, né alcun dead-key per le lettere accentate. Questa versione è basata sulla versione ufficiale per windows reperibile sul <a href='https://colemak.com/'>sito Colemak</a>.
